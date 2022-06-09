@@ -11,7 +11,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.*;
 import java.awt.desktop.*;
 
-//API Key for Hetrix Tools: a1a37d5b2f9f70c2958d198d48f3f588
+//API Key for Hetrix Tools: ***********************************
 
 //API call https://api.hetrixtools.com/v2/<API_TOKEN>/blacklist-check/ipv4/<IP_ADDRESS>/
 
@@ -38,7 +38,7 @@ public class mainWeb {
 		System.out.println("Please enter the IP to scan: ");
 		String ip = scan.nextLine();
 		
-		return "https://api.hetrixtools.com/v2/a1a37d5b2f9f70c2958d198d48f3f588/blacklist-check/ipv4/" + ip + "/";
+		return "https://api.hetrixtools.com/v2/INSERT API KEY HERE/blacklist-check/ipv4/" + ip + "/";
 		
 	}
 	
